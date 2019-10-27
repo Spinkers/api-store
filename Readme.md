@@ -27,5 +27,8 @@ Simplesmente execute o seguinte comando no terminal:
 ```
 yarn start
 ```
-(Fique a vontade para instalar o nodemon.js, caso queira).
 
+Ou fique a vontade para utilizar o nodemon:
+```
+nodemon ./bin/server.js
+```
