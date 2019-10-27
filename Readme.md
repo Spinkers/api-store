@@ -42,6 +42,7 @@ nodemon ./bin/server.js
 
 ### POST 
 **Requisição:** POST
+
 **URL:**
 ```
 http://localhost:3000/products
