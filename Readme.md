@@ -25,7 +25,7 @@ Pronto, as dependências foram instaladas!
 
 Simplesmente execute o seguinte comando no terminal:
 ```
-node ./bin/server.js
+yarn start
 ```
 (Fique a vontade para instalar o nodemon.js, caso queira).
 
