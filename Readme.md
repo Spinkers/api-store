@@ -57,4 +57,4 @@ http://localhost:3000/products
 	"tags": ["Informática", "Mouse", "Games"]
 }
 ```
-![Requisição POST](./img/01 - POST.png)
+![Requisição POST](https://github.com/Spinkers/api-store/blob/master/img/01%20-%20POST.png?raw=true)
