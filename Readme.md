@@ -38,3 +38,23 @@ Ou fique a vontade para utilizar o nodemon:
 ```
 nodemon ./bin/server.js
 ```
+## Funcionalidades
+
+### POST 
+**Requisição:** POST
+**URL:**
+```
+http://localhost:3000/products
+```
+**Json:**
+``` Json
+{
+	"title": "Mouse Gamer",
+	"description": "Mano, esse mouse é muito massa!",
+	"slug": "mouse-gamer",
+	"price": 299,
+	"active": true,
+	"tags": ["Informática", "Mouse", "Games"]
+}
+```
+![Requisição POST](./img/01 - POST.png)
