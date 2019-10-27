@@ -8,9 +8,11 @@ Clone o projeto para a sua maquina.
 
 Você precisará ter instalado em sua maquina:
 * Node 8.10.0 ou superior.
-* Postman ou Insominia
+* MongoDB.
+* Robo 3T (Opcional).
+* Postman ou Insominia.
 * Visual Studio Code.
-* Algum navegador moderno (Chrome, Opera, Firefox)
+* Algum navegador moderno (Chrome, Opera, Firefox).
 * Yarn.
 
 ### Instalação de dependências
@@ -22,6 +24,10 @@ yarn install
 Pronto, as dependências foram instaladas!
 
 ## Rodando o projeto
+Caso vá utilizar o banco de dados em localhost, certifique-se de que o mongo está rodando, caso não, utilize o comando:
+```
+mongod
+```
 
 Simplesmente execute o seguinte comando no terminal:
 ```
