@@ -10,5 +10,8 @@
   },
   "scripts": {
     "start": "node ./bin/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
