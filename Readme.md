@@ -24,7 +24,7 @@ yarn install
 Pronto, as dependências foram instaladas!
 
 ## Rodando o projeto
-Caso vá utilizar o banco de dados em localhost, certifique-se de que o mongo está rodando, caso não, utilize o comando:
+Caso vá utilizar o banco de dados em localhost, certifique-se de que o mongo está rodando, inicie o mongo utilizando o comando:
 ```
 mongod
 ```
