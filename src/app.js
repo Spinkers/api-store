@@ -12,12 +12,16 @@ mongoose.Promise = global.Promise;
 mongoose.connect(db.mongoURI,
    {
       useNewUrlParser: true,
-      useUnifiedTopology: true
+      useUnifiedTopology: true,
+      useCreateIndex: true
    }).then(() => {
       console.log("Conectado ao mongo!");
    }).catch((err) => {
       console.log("Erro ao se conectar: " + err);
    });
+
+//Carrega os Models
+const Product = require('./models/product');
 
 //Carrega as Rotas
 const indexRoute = require('./routes/index-route');
