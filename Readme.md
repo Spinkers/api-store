@@ -40,22 +40,29 @@ nodemon ./bin/server.js
 ```
 ## Funcionalidades
 
-### POST 
+### Adicionar Produto 
 **Requisição:** POST
 
-**URL:**
 ```
 http://localhost:3000/products
 ```
 **Json:**
 ``` Json
 {
-	"title": "Mouse Gamer",
-	"description": "Mano, esse mouse é muito massa!",
-	"slug": "mouse-gamer",
-	"price": 299,
+	"title": "Cadeira Gamer",
+	"description": "Mano, essa cadeira é muito gamer!",
+	"slug": "cadeira-gamer",
+	"price": 666,
 	"active": true,
-	"tags": ["Informática", "Mouse", "Games"]
+	"tags": ["Informática", "Cadeira", "Games", "Frescura"]
 }
 ```
 ![Requisição POST](https://github.com/Spinkers/api-store/blob/master/img/01%20-%20POST.png?raw=true)
+
+### Listar Produtos
+**Requisição:** GET
+
+```
+http://localhost:3000/products
+```
+![Requisição GET](https://github.com/Spinkers/api-store/blob/master/img/02%20-%20GET.png?raw=true)
