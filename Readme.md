@@ -82,3 +82,11 @@ http://localhost:3000/products/mouse-gamer
 http://localhost:3000/products/admin/5db61daaa1c9b1318bafa2a7
 ```
 ![Requisição GET](https://github.com/Spinkers/api-store/blob/master/img/04%20-%20GET.png?raw=true)
+
+### Listar Produtos por Tag
+**Requisição:** GET
+
+```
+http://localhost:3000/products/tags/Mouse
+```
+![Requisição GET](https://github.com/Spinkers/api-store/blob/master/img/05%20-%20GET.png?raw=true)
