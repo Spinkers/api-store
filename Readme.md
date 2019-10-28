@@ -66,3 +66,11 @@ http://localhost:3000/products
 http://localhost:3000/products
 ```
 ![Requisição GET](https://github.com/Spinkers/api-store/blob/master/img/02%20-%20GET.png?raw=true)
+
+### Listar Produtos por Slug
+**Requisição:** GET
+
+```
+http://localhost:3000/products/mouse-gamer
+```
+![Requisição GET](https://github.com/Spinkers/api-store/blob/master/img/03%20-%20GET.png?raw=true)
