@@ -19,6 +19,14 @@ exports.getBySlug = (req, res, next) => {
     });
 };
 
+exports.getById = (req, res, next) => {
+    Product.findById(req.params.id).then(data => {
+        res.status(200).send(data);
+    }).catch(e => {
+        res.status(400).send(e);
+    });
+};
+
 exports.post = (req, res, next) => {
     var product = new Product(req.body);
     product.save().then(x => {
