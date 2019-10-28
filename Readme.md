@@ -90,3 +90,11 @@ http://localhost:3000/products/admin/5db61daaa1c9b1318bafa2a7
 http://localhost:3000/products/tags/Mouse
 ```
 ![Requisição GET](https://github.com/Spinkers/api-store/blob/master/img/05%20-%20GET.png?raw=true)
+
+### Atualizar Produto por Id
+**Requisição:** PUT
+
+```
+http://localhost:3000/products/5db61daaa1c9b1318bafa2a7
+```
+![Requisição GET](https://github.com/Spinkers/api-store/blob/master/img/06%20-%20PUT.png?raw=true)
