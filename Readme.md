@@ -97,4 +97,18 @@ http://localhost:3000/products/tags/Mouse
 ```
 http://localhost:3000/products/5db61daaa1c9b1318bafa2a7
 ```
-![Requisição GET](https://github.com/Spinkers/api-store/blob/master/img/06%20-%20PUT.png?raw=true)
+![Requisição PUT](https://github.com/Spinkers/api-store/blob/master/img/06%20-%20PUT.png?raw=true)
+
+### Excluír Produto por Id
+**Requisição:** DELETE
+
+```
+http://localhost:3000/products
+```
+**Json:**
+``` Json
+{
+	"id": "5db6ed235034b708a60f3dc0"
+}
+```
+![Requisição PUT](https://github.com/Spinkers/api-store/blob/master/img/07%20-%20DEL.png?raw=true)
