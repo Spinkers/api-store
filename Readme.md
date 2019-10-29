@@ -112,3 +112,19 @@ http://localhost:3000/products
 }
 ```
 ![Requisição PUT](https://github.com/Spinkers/api-store/blob/master/img/07%20-%20DEL.png?raw=true)
+
+### Cadastrar usuário
+**Requisição:** POST
+
+```
+http://localhost:3000/customers
+```
+**Json:**
+``` Json
+{
+	"name": "Lucas Rosado",
+	"email": "lucasmouraolopes@gmail.com",
+	"password": "40028922"
+}
+```
+![Requisição PUT](https://github.com/Spinkers/api-store/blob/master/img/08%20-%20POST.png?raw=true)
